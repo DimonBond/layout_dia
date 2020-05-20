@@ -261,6 +261,14 @@ small {
       left: 48px; }
     .carousel__button--right {
       left: 88px; }
+  .carousel_arrow {
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
+    .carousel_arrow:hover {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5); }
   .carousel__intro {
     position: absolute;
     left: 144px;
@@ -350,6 +358,7 @@ small {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
+  padding: 0.5rem;
   -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
   transition: -webkit-box-shadow 0.3s ease-in-out;
   transition: box-shadow 0.3s ease-in-out;
@@ -471,7 +480,8 @@ small {
   .card__image {
     display: block;
     width: 184px;
-    height: 166px; }
+    height: 166px;
+    border-radius: 1.5rem; }
     .card__image--testimonial {
       border-radius: 50%; }
   .card__text {
@@ -613,8 +623,8 @@ small {
     transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
     .box__button:hover {
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); }
     .theme--blue .box__button--1 {
       background-color: #56ccf2; }
     .theme--blue .box__button--2 {
