@@ -375,7 +375,7 @@ small {
     position: relative;
     z-index: 1;
     margin: 3.5rem 3.5rem 5rem; }
-    .card__photo--1::before {
+    .card__photo--first::before {
       content: "";
       position: absolute;
       top: 0;
@@ -385,14 +385,14 @@ small {
       height: 56px;
       -webkit-transform: translate(-30%) rotate(-60deg);
               transform: translate(-30%) rotate(-60deg); }
-      .theme--black .card__photo--1::before {
+      .theme--black .card__photo--first::before {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--1::before {
+      .theme--blue .card__photo--first::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
         border-radius: 500px; }
-    .card__photo--1::after {
+    .card__photo--first::after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -402,14 +402,14 @@ small {
       height: 56px;
       -webkit-transform: translate(30%) rotate(-60deg);
               transform: translate(30%) rotate(-60deg); }
-      .theme--black .card__photo--1::after {
+      .theme--black .card__photo--first::after {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--1::after {
+      .theme--blue .card__photo--first::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #56ccf2;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #56ccf2;
         border-radius: 500px; }
-    .card__photo--2::before {
+    .card__photo--second::before {
       content: "";
       position: absolute;
       top: 0;
@@ -419,14 +419,14 @@ small {
       height: 56px;
       -webkit-transform: translate(-30%) rotate(-60deg);
               transform: translate(-30%) rotate(-60deg); }
-      .theme--black .card__photo--2::before {
+      .theme--black .card__photo--second::before {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--2::before {
+      .theme--blue .card__photo--second::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
         border-radius: 500px; }
-    .card__photo--2::after {
+    .card__photo--second::after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -436,14 +436,14 @@ small {
       height: 56px;
       -webkit-transform: translate(30%) rotate(-60deg);
               transform: translate(30%) rotate(-60deg); }
-      .theme--black .card__photo--2::after {
+      .theme--black .card__photo--second::after {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--2::after {
+      .theme--blue .card__photo--second::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #fcc304;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #fcc304;
         border-radius: 500px; }
-    .card__photo--3::before {
+    .card__photo--third::before {
       content: "";
       position: absolute;
       top: 0;
@@ -453,14 +453,14 @@ small {
       height: 56px;
       -webkit-transform: translate(-30%) rotate(-60deg);
               transform: translate(-30%) rotate(-60deg); }
-      .theme--black .card__photo--3::before {
+      .theme--black .card__photo--third::before {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--3::before {
+      .theme--blue .card__photo--third::before {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
         border-radius: 500px; }
-    .card__photo--3::after {
+    .card__photo--third::after {
       content: "";
       position: absolute;
       bottom: 0;
@@ -470,10 +470,10 @@ small {
       height: 56px;
       -webkit-transform: translate(30%) rotate(-60deg);
               transform: translate(30%) rotate(-60deg); }
-      .theme--black .card__photo--3::after {
+      .theme--black .card__photo--third::after {
         background: #2060f6;
         border-radius: 12px; }
-      .theme--blue .card__photo--3::after {
+      .theme--blue .card__photo--third::after {
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(255, 255, 255, 0))), #f25656;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%), #f25656;
         border-radius: 500px; }
@@ -496,17 +496,17 @@ small {
     @media (min-width: 768px) {
       .card__description {
         max-width: 240px; } }
-    .theme--black .card__description--1::before {
+    .theme--black .card__description--first::before {
       content: url("../images/testimonials/blue-quote.svg"); }
-    .theme--blue .card__description--1::before {
+    .theme--blue .card__description--first::before {
       content: url("../images/testimonials/aqua-quote.svg"); }
-    .theme--black .card__description--2::before {
+    .theme--black .card__description--second::before {
       content: url("../images/testimonials/blue-quote.svg"); }
-    .theme--blue .card__description--2::before {
+    .theme--blue .card__description--second::before {
       content: url("../images/testimonials/yellow-quote.svg"); }
-    .theme--black .card__description--3::before {
+    .theme--black .card__description--third::before {
       content: url("../images/testimonials/blue-quote.svg"); }
-    .theme--blue .card__description--3::before {
+    .theme--blue .card__description--third::before {
       content: url("../images/testimonials/pink-quote.svg"); }
     .card__description::before {
       position: absolute;
@@ -625,13 +625,13 @@ small {
     .box__button:hover {
       -webkit-transform: rotate(360deg);
               transform: rotate(360deg); }
-    .theme--blue .box__button--1 {
+    .theme--blue .box__button--first {
       background-color: #56ccf2; }
-    .theme--blue .box__button--2 {
+    .theme--blue .box__button--second {
       background-color: #fcc91d; }
-    .theme--blue .box__button--3 {
+    .theme--blue .box__button--third {
       background-color: #15d850; }
-    .theme--blue .box__button--4 {
+    .theme--blue .box__button--fourth {
       background-color: #f36363; }
   .box__link {
     font-weight: 600;
