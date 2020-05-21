@@ -185,7 +185,7 @@ small {
   color: #fff; }
   .theme--black .button {
     background-color: #2060f6;
-    border-radius: 8px; }
+    border-radius: 64px; }
   .theme--blue .button {
     background-color: #ff9c8e;
     border-radius: 64px; }
@@ -658,7 +658,7 @@ small {
     background-color: #2c2c2c;
     border-radius: 30px 0 0 30px; }
   .theme--blue .features {
-    background-color: #ff9c8e;
+    background-color: #008aff;
     border-radius: 200px 0 0 200px; }
   .features__description {
     display: -webkit-box;
