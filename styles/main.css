@@ -333,12 +333,11 @@ small {
 .cards {
   display: grid;
   grid-template-columns: 264px;
-  grid-template-rows: repeat(3, 334px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 148px; }
-  @media (min-width: 850px) {
+  @media (min-width: 968px) {
     .cards {
       grid-template-columns: repeat(3, 264px);
       grid-template-rows: 334px;
@@ -493,8 +492,10 @@ small {
     display: block;
     width: 184px;
     height: 166px;
-    border-radius: 1.5rem;
-    margin-bottom: 3rem; }
+    border-radius: 1.5rem; }
+    @media (min-width: 1024px) {
+      .card__image {
+        margin-bottom: 3rem; } }
     .card__image--testimonial {
       border-radius: 50%; }
   .card__heading {
@@ -934,7 +935,7 @@ small {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    @media (min-width: 850px) {
+    @media (min-width: 1024px) {
       .footer__container {
         padding-top: 180px;
         -webkit-box-orient: horizontal;
