@@ -370,19 +370,19 @@ small {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2rem;
-  padding: 0.5rem;
-  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
-  .card:hover {
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5); }
+  padding: 0.5rem; }
   .card--testimonial {
     padding: 2rem;
     background-color: #fff;
     border-radius: 1rem;
-    text-align: center; }
+    text-align: center;
+    -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: -webkit-box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
+    .card--testimonial:hover {
+      -webkit-box-shadow: 0 3px 6px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 3px 6px rgba(0, 117, 255, 0.46); }
   .card__photo {
     position: relative;
     z-index: 1;
@@ -493,9 +493,12 @@ small {
     display: block;
     width: 184px;
     height: 166px;
-    border-radius: 1.5rem; }
+    border-radius: 1.5rem;
+    margin-bottom: 3rem; }
     .card__image--testimonial {
       border-radius: 50%; }
+  .card__heading {
+    margin-bottom: 1rem; }
   .card__text {
     font-size: 14px;
     line-height: 150%;
@@ -587,6 +590,9 @@ small {
   .box:hover {
     -webkit-box-shadow: 0 3px 6px rgba(0, 117, 255, 0.46);
             box-shadow: 0 3px 6px rgba(0, 117, 255, 0.46); }
+    .box:hover button {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg); }
   @media (min-width: 1300px) {
     .box:nth-child(2n-1) {
       -webkit-transform: translateY(50%);
@@ -630,13 +636,10 @@ small {
     width: 40px;
     margin-right: 1rem;
     border-radius: 50%;
-    -webkit-transition: -webkit-transform 0.3s ease-in-out;
-    transition: -webkit-transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; }
-    .box__button:hover {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); }
+    -webkit-transition: -webkit-transform 0.4s ease-in-out;
+    transition: -webkit-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out; }
     .theme--blue .box__button--first {
       background-color: #56ccf2; }
     .theme--blue .box__button--second {
@@ -744,7 +747,7 @@ small {
   background-color: #fff; }
   @media (min-width: 1024px) {
     .vision {
-      padding: 200px 20px; } }
+      padding: 300px 20px; } }
   .vision__ovals {
     visibility: hidden; }
     @media (min-width: 1024px) {
@@ -770,7 +773,7 @@ small {
 
 .oval {
   position: absolute;
-  opacity: 0.2;
+  opacity: 0.5;
   -webkit-transform: rotate(-65.1deg);
           transform: rotate(-65.1deg);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
@@ -828,7 +831,7 @@ small {
     width: 67.3px;
     height: 26.6px;
     left: 5vw;
-    bottom: 50%; }
+    bottom: 30%; }
     .theme--black .oval--center-medium {
       border: 5px solid #2060f6;
       border-radius: 12px; }
